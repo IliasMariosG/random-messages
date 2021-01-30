@@ -35,3 +35,10 @@ const generateRandomExpression = () => {
   }
   return finalMessage
 }
+
+function generateFinalExpression(generateRandomExpression) {
+  let finalExpressionresult = generateRandomExpression().join('\n');
+  return finalExpressionresult
+}
+
+// console.log(generatefinalExpression(generateRandomExpression))

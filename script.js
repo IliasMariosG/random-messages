@@ -7,3 +7,9 @@ const messages = {
   fortune: ['good luck', 'ok luck'],
   advice: ['trust some', 'do what you need to']
 }
+
+const expressions = {
+  signExpression: 'Your sign is ',
+  fortuneExpression: 'You are having ',
+  adviceExpression: 'You should '
+}
